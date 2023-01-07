@@ -1,0 +1,245 @@
+* {
+    margin: o;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header section styles */
+
+.header {
+    background-image: linear-gradient(180deg, rgba(28, 12, 243, 0.1), rgba(7, 31, 252, 0.452)), url(./images/banner/Banner4.png);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-content {
+    max-width: 600px;
+    padding: 150px 200px;
+}
+
+.header-content .header-title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+span {
+    color: #E5B11F;
+}
+
+.header-content .header-details {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.primary-btn {
+    width: 160px;
+    height: 64px;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Main section styles */
+
+.main-section {
+    max-width: 1200px;
+    margin: 130px auto;
+}
+
+/* Failures section styles */
+
+.failures-section {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.failures-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #444343;
+}
+
+.check-list {
+    font-weight: 400;
+    font-size: 20px;
+    color: #444343;
+}
+
+.check-list li {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.check-list li::before {
+    content: "\2713";
+    margin-right: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FF3061;
+}
+
+/* Plan section styles */
+
+.plan {
+    margin-top: 130px;
+    text-align: center;
+
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.planning-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.list img {
+    width: 95px;
+    height: 95px;
+}
+
+.list-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.what-i-want {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* Positive mind section */
+
+.positive-mind {
+    background-image: linear-gradient(90deg, rgb(17, 85, 158), rgba(24, 9, 243, 0.1)), url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    border-radius: 8px;
+    margin-top: 130px;
+}
+
+.positive {
+    width: 500px;
+    padding: 20px 60px;
+}
+
+.positive-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+/* Footer Section styles */
+
+.footer-section {
+    max-width: 100%;
+    height: 400px;
+    margin: 130px auto 0 auto;
+    padding: 100px 200px;
+    background: #151414;
+}
+
+/* Contact Area styles */
+
+.contact-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Link area styles */
+
+.Useful-links {
+    width: 25%;
+    text-align: left;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #F8F8F8;
+}
+
+.Useful-links ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 50px;
+}
+
+/* Subscribe area styles */
+
+.Newsletter {
+    width: 50%;
+    text-align: center;
+}
+
+.email {
+    width: 70%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #737272;
+    text-align: center;
+}
+
+.subscribe-btn {
+    height: 60px;
+    width: 200px;
+    border-radius: 20px;
+    background: #12559D;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    margin-top: 45px;
+}
+
+/* Contact details area styles */
+
+.contact{
+    width: 25%;
+    text-align: right;
+}
+
+.contact-details {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+
+.social-icon img{
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    margin-left: 15px;
+}
